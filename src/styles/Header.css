@@ -1,0 +1,14 @@
+.header-component {
+  background-color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  height: 113px;
+
+}
+
+.header-component p{
+  margin: 10px;
+  padding: 10px;
+}
+
