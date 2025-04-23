@@ -18,9 +18,10 @@ const Links = () => {
   const items = [
     "Homepage",
     "Experiences",
-    "Portfolio",
-    "Contact",
-    "About"
+    "Tech Stacks",
+    "Github and Contributions",
+    "Resume",
+    "Recommendations"
   ];
 
   const handleScroll = (id) => {

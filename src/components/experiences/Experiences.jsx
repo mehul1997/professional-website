@@ -19,9 +19,13 @@ const titleVariants = {
 
 const Experiences = () => {
   return (
-    <motion.div className="experience-header" variants={titleVariants} initial="initial" animate="animate">
+    <div className="experience-header" >
       <h1>Work Experiences</h1>
-      <div className="experience-companies">
+      <motion.div className="experience-companies" 
+      variants={titleVariants} 
+      initial="initial" 
+      whileInView="animate"
+      viewport={{ once: false, amount: 0.2 }}>
         <div className="experience-company">
           <img src="/backlight.png" alt="Company 1" />
           <div className="experience-company-info">
@@ -40,8 +44,8 @@ const Experiences = () => {
             <p>Description: Worked on various projects...</p>
           </div>
         </div>
-      </div>
-    </motion.div>
+      </motion.div>
+    </div>
   )
 }
 
